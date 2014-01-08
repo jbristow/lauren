@@ -1,0 +1,20 @@
+{
+  "name": "lauren",
+  "preferGlobal": "false",
+  "version": "0.0.1",
+  "author": "Jon Bristow <jonathan.bristow@intuit.com>",
+  "description": "A random structured json data generator.",
+  "scripts": {
+    "test": "coffee src/test-coffee/lauren-suite.coffee",
+    "rebuild": "coffee -c -o src/js src/coffee/"
+  },
+  "main": "src/js/lauren.js",
+  "license": "MIT",
+  "dependencies": {
+    "randexp": "0.3.x",
+    "JSONSelect": "0.4.x"
+  },
+  "devDependencies": {
+    "vows": "0.7.x"
+  }
+}
